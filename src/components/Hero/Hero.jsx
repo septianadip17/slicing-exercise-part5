@@ -1,5 +1,7 @@
 import React from "react";
 import { IoBagHandleOutline } from "react-icons/io5";
+import HeroPng from "../../assets/fruit-plate.png";
+import LeafPng from "../../assets/leaf.png";
 
 const Hero = () => {
   return (
@@ -34,6 +36,9 @@ const Hero = () => {
         </div>
 
         {/* Hero Image */}
+        <div>
+          <img src={HeroPng} alt="fruits on plate" className="w-[350px] md:w-[550px]" />
+        </div>
       </div>
     </section>
   );
