@@ -6,7 +6,7 @@ import LeafPng from "../../assets/leaf.png";
 const Hero = () => {
   return (
     <section>
-      <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px] border-2 border-purple-500">
+      <div className="container grid grid-cols-1 md:grid-cols-2 min-h-[650px] relative border-2 border-purple-500">
         {/* Brand Info */}
         <div className="flex flex-col justify-center py-14 md:py-0 relative z-10">
           <div className="text-center md:text-left space-y-6 lg:max-w-[400px]">
@@ -36,8 +36,17 @@ const Hero = () => {
         </div>
 
         {/* Hero Image */}
-        <div>
-          <img src={HeroPng} alt="fruits on plate" className="w-[350px] md:w-[550px] drop-shadow" />
+        <div className="flex justify-center items-center">
+          <img
+            src={HeroPng}
+            alt="fruits on plate"
+            className="w-[350px] md:w-[550px] drop-shadow"
+          />
+        </div>
+
+        {/* Leaf Image */}
+        <div className="absolute top-14 md:top-0 right-1/2 blur-sm opacity-80 rotate-[40deg]">
+          <img src={LeafPng} alt="leaf" className="w-full md:max-w-[300px]" />
         </div>
       </div>
     </section>
