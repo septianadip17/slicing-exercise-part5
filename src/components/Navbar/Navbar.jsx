@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLeaf } from "react-icons/fa";
-import { MdOutlineShoppingCart } from "react-icons/md";
+import { MdMenu, MdOutlineShoppingCart } from "react-icons/md";
 
 const NavbarMenu = [
   {
@@ -39,6 +39,7 @@ const Navbar = () => {
           <p className="text-secondary">Store</p>
           <FaLeaf className="text-green-500" />
         </div>
+
         {/* Menu section */}
         <div className="hidden md:block">
           <ul className="flex items-center gap-6 text-gray-600">
@@ -56,6 +57,11 @@ const Navbar = () => {
               <MdOutlineShoppingCart />
             </button>
           </ul>
+        </div>
+
+        {/* Mobile Hamburger Menu section */}
+        <div className="md:hidden">
+          <MdMenu className="text-4xl"/>
         </div>
       </div>
     </nav>
