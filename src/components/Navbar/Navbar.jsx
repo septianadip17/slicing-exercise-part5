@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLeaf } from "react-icons/fa";
 import { MdMenu, MdOutlineShoppingCart } from "react-icons/md";
+import ResponsiveMenu from "./ResponsiveMenu";
 
 const NavbarMenu = [
   {
@@ -61,9 +62,10 @@ const Navbar = () => {
 
         {/* Mobile Hamburger Menu section */}
         <div className="md:hidden">
-          <MdMenu className="text-4xl"/>
+          <MdMenu className="text-4xl" />
         </div>
       </div>
+      <ResponsiveMenu />
     </nav>
   );
 };
