@@ -57,7 +57,7 @@ const Banner2 = () => {
             viewport={{ once: true }}
             src={BannerPng}
             alt="fruits splash"
-            className="w-[300px] md:max-w-[400px] h-full object-cover"
+            className="w-[300px] md:max-w-[400px] h-full object-cover drop-shadow"
           />
         </div>
 
