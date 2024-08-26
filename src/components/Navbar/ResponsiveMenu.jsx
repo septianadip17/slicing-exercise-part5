@@ -6,4 +6,4 @@ const ResponsiveMenu = () => {
   )
 }
 
-export default ResponsiveMenu
+export default ResponsiveMenu 
