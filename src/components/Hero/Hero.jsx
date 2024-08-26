@@ -37,7 +37,7 @@ const Hero = () => {
 
         {/* Hero Image */}
         <div>
-          <img src={HeroPng} alt="fruits on plate" className="w-[350px] md:w-[550px]" />
+          <img src={HeroPng} alt="fruits on plate" className="w-[350px] md:w-[550px] drop-shadow" />
         </div>
       </div>
     </section>
