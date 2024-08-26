@@ -36,7 +36,7 @@ const Hero = () => {
               animate="visible"
               className="text-gray-400"
             >
-              Healthy and yummy food for fresh morning braekfast. Eat daily for
+              Healthy and yummy food for fresh morning breakfast. Eat daily for
               good health and mind Order now and get 20% off on your first
               order.
             </motion.p>
