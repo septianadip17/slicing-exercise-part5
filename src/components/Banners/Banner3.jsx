@@ -11,7 +11,7 @@ const bgStyle = {
 };
 const Banner3 = () => {
   return (
-    <section className="">
+    <section className="container mb-12">
       <div
         style={bgStyle}
         className="container grid grid-cols-1 md:grid-cols-2 space-y-6 md:space-y-0 py-14"
