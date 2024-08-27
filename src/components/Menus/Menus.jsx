@@ -44,7 +44,7 @@ const MenuData = [
 const Menus = () => {
   return (
     <section>
-      <div className="container pt-12 pb-20 border-2 border-red-600">
+      <div className="container pt-12 pb-20 ">
         <motion.h1
           initial={{ opacity: 0, x: -200 }}
           whileInView={{ opacity: 1, x: 0 }}
