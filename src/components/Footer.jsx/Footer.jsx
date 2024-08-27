@@ -4,7 +4,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaLeaf } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-primary/10 py-12">
+    <footer className="bg-primary/10 py-12 mt-12">
       <motion.div
       initial={{opacity: 0}}
       whileInView={{opacity: 1}}
