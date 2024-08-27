@@ -28,7 +28,7 @@ const Banner3 = () => {
               whileInView="visible"
               className="text-3xl lg:text:6xl font-bold uppercase"
             >
-              Brand Info
+              Get Fresh Fruits Today
             </motion.h1>
             <motion.p
               variants={FadeLeft(0.7)}
